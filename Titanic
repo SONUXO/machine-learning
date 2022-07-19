@@ -4,8 +4,8 @@ import tensorflow as tf
 from tensorflow.keras import layers
 from sklearn.ensemble import RandomForestClassifier
 
-train_df=pd.read_csv('train.csv')
-test_df= pd.read_csv('test.csv')
+train_df=pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/train.csv')
+test_df= pd.read_csv('https://storage.googleapis.com/tf-datasets/titanic/eval.csv')
 
 
 data= [train_df, test_df]
